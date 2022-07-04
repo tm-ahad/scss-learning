@@ -1,0 +1,13 @@
+@mixin common {
+  color: green;
+  background-color: blue;
+}
+
+h1 {
+  @include common //...code
+;
+}
+p {
+  @include common() //...code
+;
+}

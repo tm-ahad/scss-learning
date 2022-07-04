@@ -3,7 +3,6 @@ $color_map: (
   'success': #29ff30,
   'danger': #ff2d29
 );
-
 h1 {
   color: map-get($map: $color_map, $key: primary);
 }
